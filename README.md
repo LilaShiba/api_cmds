@@ -6,22 +6,22 @@ A collection of **cute & functional** CLI tools for fetching cool data from APIs
 
 1️⃣ Clone this repo:  
 
-<code>
+<pre><code>
 git clone https://github.com/LilaShiba/api_cmds.git  
 cd api_cmds
-</code>
+</code></pre>
 
 2️⃣  Make scripts executable:  
 
-<code>
+<pre><code>
 chmod +x neo weather
-</code>
+</code></pre>
 
 3️⃣ (Optional) Move them to `/usr/local/bin/` for global usage:  
 
-<code>
+<pre><code>
 mv neo weather /usr/local/bin/
-</code>
+</code></pre>
 
 ## ✨ Usage  
 
@@ -29,12 +29,12 @@ mv neo weather /usr/local/bin/
 
 ### 🔭 Check for Near-Earth Objects (NEOs)  
 
-<code>
+<pre><code>
 neo
-</code>
+</code></pre>
 
 📡 Example output:  
-<code>
+<pre><code>
 🚀 Top Closest Asteroids to Earth 🪐
 
 1. 🪐 (2010 RF12) (2010 RF12)
@@ -45,16 +45,16 @@ neo
    🎯 Impact Probability: 0.102637259069
    🌍 Risk Period: 2095-2122
    ───────────────────────────
-</code>
+</code></pre>
 
 ### ☁️ Get the Weather  
 
-<code>
+<pre><code>
 weather
-</code>
+</code></pre>
 
 🌤 Example output:  
-<code>
+<pre><code>
 🔮 Fetching weather data for station: KLGA...
 
 🌙✨ Magic Weather Report ✨🌙
@@ -70,15 +70,15 @@ weather
 ⚖️ Pressure: 100680 Pa
 
 🌟 Stay magical! 🌟
-</code>
+</code></pre>
 
 ### 🔑 API Keys  
 
 If API keys are required, create a `.env` file in the same directory:  
 
-<code>
+<pre><code>
 API_KEY=your_api_key_here
-</code>
+</code></pre>
 
 ## 📜 License  
 
