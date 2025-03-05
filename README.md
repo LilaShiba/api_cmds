@@ -14,13 +14,13 @@ cd api_cmds
 2️⃣  Make scripts executable:  
 
 <pre><code>
-chmod +x neo weather
+chmod +x neo weather setup
 </code></pre>
 
 3️⃣ (Optional) Move them to `/usr/local/bin/` for global usage:  
 
 <pre><code>
-mv neo weather /usr/local/bin/
+mv neo weather setup /usr/local/bin/
 </code></pre>
 
 ## ✨ Usage  
