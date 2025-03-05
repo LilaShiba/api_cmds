@@ -41,7 +41,7 @@ def fetch_weather_data(station):
             description = properties.get('textDescription', 'Unknown')
             emoji = get_weather_emoji(description)
 
-            print("\n🌙✨ Sailor Moon Weather Report ✨🌙\n")
+            print("\n🌙✨ Meow Moon Weather Report ✨🌙\n")
             print(f"📍 Station: {station}")
             print(f"⏳ Timestamp: {properties.get('timestamp', 'N/A')}")
             print(f"🌤️ Weather: {description} {emoji}")
